@@ -8,13 +8,13 @@ A Flutter application that displays characters from the Rick & Morty API with lo
 git clone  https://github.com/your-username/rick-and-morty-app.git
 cd rick-and-morty-app
 
-3. Install Dependencies
+3. Install Dependenciesm : 
 flutter pub get
 
-4. Generate Hive Adapters
+4. Generate Hive Adapters: 
 flutter pub run build_runner build --delete-conflicting-outputs
 
-5. Run the App
+5. Run the App: 
 flutter run
 
 🧠 State Management Choice
