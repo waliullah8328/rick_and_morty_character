@@ -1,16 +1,14 @@
-# rick_and_morty_character
+📱 Rick & Morty Character App (Flutter)
 
-A new Flutter project.
+A Flutter application that displays characters from the Rick & Morty API with local editing and reset functionality using Riverpod for state management and Hive for offline storage.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🚀 Setup Instructions
+1. Clone the Repository
+git clone https://github.com/your-username/rick-and-morty-app.git
+cd rick-and-morty-app
+2. Install Dependencies
+flutter pub get
+3. Generate Hive Adapters
+flutter pub run build_runner build --delete-conflicting-outputs
+4. Run the App
+flutter run
