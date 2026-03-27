@@ -5,7 +5,7 @@ A Flutter application that displays characters from the Rick & Morty API with lo
 🚀 Setup Instructions
 
 1. Clone the Repository
-git clone https://github.com/your-username/rick-and-morty-app.git
+git clone  https://github.com/your-username/rick-and-morty-app.git
 cd rick-and-morty-app
 
 3. Install Dependencies
@@ -22,6 +22,7 @@ flutter run
 This project uses Riverpod for state management.
 
 Why Riverpod?
+
 ✅ Compile-time safety
 ✅ No dependency on BuildContext
 ✅ Better testability
@@ -35,6 +36,7 @@ Riverpod helps keep business logic separate from UI and avoids common issues lik
 This app uses Hive for local storage.
 
 Why Hive?
+
 ✅ Lightweight and extremely fast
 ✅ Works offline
 ✅ No SQL queries needed
@@ -71,8 +73,15 @@ Benefits
 
 📦 Dependencies
 
-Flutter
-flutter_riverpod
-Hive
-hive_flutter
+flutter_riverpod,
+Hive,
+Dio,
+google_fonts
+cached_network_image,
+go_router,
+intl,
+hive_flutter,
 build_runner
+
+✨ Youtube video (demostation) Link: 
+https://www.youtube.com/watch?v=t0QeDoVf_jw
